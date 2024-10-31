@@ -4,6 +4,7 @@
     {
         // Sub class - Property
         public bool HasSharpTeeth { get; set; } = true;
+        public bool IsDomesticated = false;
 
         // Sub class - Constructors
         public Wolf() { }
@@ -11,7 +12,6 @@
             int numOfLegs, bool canFly, bool hasSharpTeeth) : base(hasEyes, hasTail, isDomesticated,
             numOfLegs, canFly)
         { 
-            IsDomesticated = false;
             HasSharpTeeth = hasSharpTeeth;
         }
 

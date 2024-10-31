@@ -4,6 +4,10 @@
     {
         // Sub class  - Property
         public string Gender { get; set; } = "Not set";
+        public bool HasTail { get; set; } = false;
+        public bool IsDomesticated { get; set; } = false;
+        public int NumOfLegs { get; set; } = 2;
+        public bool CanFly { get; set; } = true;
 
         // Sub class - Constructors
         public Bird() { }
@@ -11,10 +15,6 @@
             int numOfLegs, bool canFly, string gender) : base(hasEyes, hasTail, isDomesticated,
             numOfLegs, canFly)
         {
-            HasTail = false;
-            IsDomesticated = false;
-            NumOfLegs = 2;
-            CanFly = true;
             Gender = gender;
         }
 

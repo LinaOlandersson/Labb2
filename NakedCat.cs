@@ -4,6 +4,7 @@
     {
         // Sub sub class - Property
         public string EyeColor { get; set; } = "Not set";
+        public bool HasFur { get; set; } = false;
 
         // Sub sub class - Constructors
         public NakedCat() { }
