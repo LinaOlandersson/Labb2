@@ -4,10 +4,10 @@
     {
         // Sub class  - Property
         public string Gender { get; set; } = "Not set";
-        public bool HasTail { get; set; } = false;
-        public bool IsDomesticated { get; set; } = false;
-        public int NumOfLegs { get; set; } = 2;
-        public bool CanFly { get; set; } = true;
+        public bool HasTail = false;
+        public bool IsDomesticated = false;
+        public int NumOfLegs = 2;
+        public bool CanFly = true;
 
         // Sub class - Constructors
         public Bird() { }
@@ -21,7 +21,7 @@
         // Sub class - Methods
         public override void MakeSound()
         {
-            Console.WriteLine("The bird sounds piip-piip-piip!");
+            Console.WriteLine("The bird says piip-piip-piip!");
         }
         public void Fly()
         {
